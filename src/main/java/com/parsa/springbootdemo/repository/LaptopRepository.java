@@ -1,4 +1,4 @@
-package com.parsa.springbootdemo;
+package com.parsa.springbootdemo.repository;
 
 import com.parsa.springbootdemo.model.Laptop;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
 package com.parsa.springbootdemo.service;
 
-import com.parsa.springbootdemo.LaptopRepository;
+import com.parsa.springbootdemo.repository.LaptopRepository;
 import com.parsa.springbootdemo.model.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
