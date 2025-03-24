@@ -1,6 +1,8 @@
 package com.parsa.springbootdemo.service;
 
+import com.parsa.springbootdemo.LaptopRepository;
 import com.parsa.springbootdemo.model.Laptop;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -8,7 +10,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class LaptopService {
 
+
+    @Autowired
+    private LaptopRepository laptopRepository;
     public void addLaptop(Laptop laptop){
+        laptopRepository.save(laptop);
         System.out.println("Method called");
     }
 
