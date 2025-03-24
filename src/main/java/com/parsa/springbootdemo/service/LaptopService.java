@@ -4,6 +4,7 @@ import com.parsa.springbootdemo.model.Laptop;
 import org.springframework.stereotype.Service;
 
 
+//responsible for dealing with repository, handling calculation and processing is done in this layer
 @Service
 public class LaptopService {
 
