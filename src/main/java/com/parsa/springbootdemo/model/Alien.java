@@ -1,4 +1,4 @@
-package com.parsa.springbootdemo;
+package com.parsa.springbootdemo.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

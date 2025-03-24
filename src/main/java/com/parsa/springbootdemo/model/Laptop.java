@@ -1,4 +1,4 @@
-package com.parsa.springbootdemo;
+package com.parsa.springbootdemo.model;
 
 
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.parsa.springbootdemo;
+package com.parsa.springbootdemo.model;
 
 public interface Computer {
 
